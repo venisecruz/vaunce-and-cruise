@@ -1,0 +1,192 @@
+h1 {
+    font-size: 40px;
+	font-family: 'Abril Fatface', cursive;
+
+}
+
+
+.quoteblk{
+	background-color: #FFF;
+	text-align:center;
+	vertical-align: middle;
+	padding:20px 47px;
+	width:30%;
+	alignment-baseline:middle;
+	margin:auto;
+}
+
+
+.dropbtn {
+	overflow: hidden;
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	position:fixed;
+	width: 100%;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: white;
+	width:100%;
+	text-align:center;
+	
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+	}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #070707;
+	color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("home-wallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("freedelivery.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("bottom.jpg");
+
+    /* Set a specific height */
+    min-height: 160px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home2 { /*background of THE NEW GENERATION OF BEAUTY*/
+	 padding: 16px;
+	 margin-top: 0;
+	 height: 607px;
+	 background-image: url("home2.jpg");
+	 width:auto;
+}
+
+.home3{
+	margin:auto;
+	overflow:auto;
+	margin-left:30;
+}
+
+.home4{
+	margin:auto;
+	overflow:auto;
+	margin-right:100;
+}
+
+.img1{
+	float:left;}
+	
+.img2{
+	float:right;}
+	
+.imgbs{
+	margin-left:10;
+	float:left;
+	}
+	
+.text1{
+	text-align:left;
+	float:left
+}
+	
+.text2{
+	text-align:right;
+	float:right}
+	
+.desc{
+	font-size:11px;
+	}
+	
+	
+.bgbs { /*background of BESTSELLERS*/
+	 padding: 16px;
+	 margin-top: 0;
+	 background-image: url("bg-best.jpg");
+	 width:auto;
+	 margin:auto;
+	 overflow:auto;
+}
+
+.button {
+    background-color: #FF8080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btnsubmit {
+	width: 100%; 
+	background-color: #FF8080; 
+	color: white; 
+	padding: 14px 20px; 
+	margin: 8px 0; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer;
+	}
+
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
